@@ -1,0 +1,98 @@
+body {
+    background-image: url("jo2024.jpg")
+}
+
+.textnav {
+    display: inline;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    overflow: hidden;
+
+}
+
+
+li a {
+    color: rgb(21, 8, 166);
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+.devise {
+    margin: auto;
+}
+
+
+main img {
+    display: block;
+    margin-left: auto;
+    height: 200px;
+}
+
+.calen {
+    height: 70px;
+    float: right;
+    margin-right: 300px;
+}
+
+.drier {
+    height: 70px;
+    float: left;
+    margin-left: 300px;
+}
+
+p {
+    height: auto;
+    border: 2rem;
+    white-space: normal;
+    font-family: Montserrat;
+    margin-right: 750px;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+td,
+th {
+    border: 3px solid black;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.Sport {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+
+.Sport2 {
+    display: flex;
+    justify-content: space-between;
+    border-color: black;
+
+}
