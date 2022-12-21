@@ -1,0 +1,224 @@
+body {
+    background-image: url("jo2024.jpg")
+}
+
+.textnav {
+    display: inline;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    overflow: hidden;
+
+}
+
+
+li a {
+    color: rgb(21, 8, 166);
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+.devise {
+    margin: auto;
+}
+
+
+main img {
+    display: block;
+    margin-left: auto;
+    height: 200px;
+}
+
+.calen {
+    height: 70px;
+    float: right;
+    margin-right: 300px;
+}
+
+.drier {
+    height: 70px;
+    float: left;
+    margin-left: 300px;
+}
+
+p {
+    height: auto;
+    border: 2rem;
+    white-space: normal;
+    font-family: Montserrat;
+    margin-right: 750px;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+td,
+th {
+    border: 3px solid black;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.Sport {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+
+}
+
+.collectif {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.Sport2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .textnav {
+        display: inline;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+        overflow: hidden;
+
+    }
+
+
+    li a {
+        color: rgb(21, 8, 166);
+        padding: 14px;
+        text-decoration: none;
+        display: inline-block;
+        font-family: Montserrat;
+    }
+
+    h1 {
+        font-family: Montserrat;
+        text-align: center;
+        text-decoration-line: underline;
+    }
+
+    header img {
+        display: block;
+        margin: auto;
+    }
+
+    .worldcup {
+        display: block;
+        margin: auto;
+        height: 300px;
+    }
+
+    .basketball {
+        display: block;
+        margin: auto;
+        height: 300px;
+    }
+
+    .handball {
+        display: block;
+        margin: auto;
+        height: 300px;
+    }
+
+    .devise {
+        margin: auto;
+    }
+
+
+    main img {
+        display: block;
+        margin-bottom: auto;
+        height: 200px;
+    }
+
+    .calen {
+        height: 30px;
+        float: right;
+        margin-right: 300px;
+    }
+
+    .drier {
+        height: 30px;
+        float: left;
+        margin-left: 25px;
+    }
+
+    p {
+        height: auto;
+        border: 2rem;
+        white-space: normal;
+        font-family: Montserrat;
+        margin-right: 100px;
+        text-align: center;
+    }
+
+
+    table {
+        border-collapse: collapse;
+        margin: auto;
+
+    }
+
+    td,
+    th {
+        border: 3px solid black;
+        background-color: white;
+        width: 200px;
+        height: 100px;
+        font-family: Montserrat;
+        text-align: center;
+    }
+
+    .Sport {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 150px;
+
+    }
+
+    .collectif {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    .Sport2 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 150px;
+    }
+}

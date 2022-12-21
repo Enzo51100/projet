@@ -1,0 +1,46 @@
+body {
+    background-image: url("jo2024.jpg")
+}
+
+.textnav {
+    display: inline;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    overflow: hidden;
+
+}
+
+
+li a {
+    color: rgb(21, 8, 166);
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: Montserrat;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+.devise {
+    margin: auto;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.Sport {
+    display: flex;
+    justify-content: space-between;
+}
